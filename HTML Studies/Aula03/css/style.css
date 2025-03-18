@@ -1,0 +1,29 @@
+/*
+    ul = unordenated list
+    li = list item
+
+    seletor{
+        propriedade1 : valor;
+        propriedade2 : valor;
+    }
+    .classe{
+        propriedade1 : valor;
+        propriedade2 : valor;
+    }
+    #id{
+        propriedade1 : valor;
+        propriedade2 : valor;
+    }
+*/
+
+.circle{
+    list-style-type: circle;
+}
+
+.disc{
+    list-style-type: disc;
+}
+
+.square{
+    list-style-type: square;
+}
