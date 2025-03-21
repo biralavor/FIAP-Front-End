@@ -1,0 +1,98 @@
+.circle{
+    list-style-type:circle;
+}
+
+.square{
+    list-style-type: square;
+}
+
+nav{
+    border: 1px solid black;
+    border-bottom: 0;
+    width: 150px;
+    height: 155px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    height: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.santos{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    display: flex;
+    line-height: 30px;
+}
+.santos:hover{
+    background-color: #000;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.saopaulo{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    padding-left: 10px;
+    display: flex;
+    line-height: 30px;
+}
+.saopaulo:hover{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.palmeiras{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    padding-left: 10px;
+    display: flex;
+    line-height: 30px;
+}
+.palmeiras:hover{
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.corinthians{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+    padding-left: 10px;
+    display: flex;
+    line-height: 30px;
+}
+.corinthians:hover{
+    background-color: rgb(105, 105, 105);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.google{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    padding-left: 10px;
+    display: flex;
+    line-height: 30px;
+}
+.google:hover{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
