@@ -1,0 +1,16 @@
+/**
+large
+*/
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+    header{
+        background-color: rgb(43, 86, 226);
+    }
+    .h1LG{
+        font-size: 50px;
+        color: white;
+    }
+    .h1XS, .h1SM, .h1MD, .h1XL{
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+/**
+extra large
+*/
+
+@media (min-width: 1200px) {
+    header{
+        background-color: rgb(73, 226, 43);
+    }
+    .h1XL{
+        font-size: 60px;
+        color: white;
+    }
+    .h1XS, .h1SM, .h1MD, .h1LG{
+        display: none;
+    }
+}
