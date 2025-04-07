@@ -1,0 +1,61 @@
+/*
+    seletor{
+        propriedade1 : valor;
+        propriedade2 : valor;
+    }
+    .classe{
+        propriedade1 : valor;
+        propriedade2 : valor;
+    }
+    #id{
+        propriedade1 : valor;
+        propriedade2 : valor;
+    }
+*/
+
+.circle{
+    list-style-type: circle;
+}
+.disc{
+    list-style-type: disc;
+}
+.square{
+    list-style-type: square;
+}
+
+nav{
+    border: 1px solid #000;
+    width: 150px;
+    height: 155px;
+}
+nav ul{
+    list-style-type: none;
+    margin:0; /*margem externa */
+    background-color: #ff0;
+    padding: 0; /* margem interna */
+}
+nav ul li{
+    height: 30px;
+    border-bottom:1px solid #000;
+}
+
+nav ul li a{
+    text-decoration: none;
+    border-left: 8px solid #f00;
+    padding-left: 15px;
+    display: block;
+    line-height: 30px;
+    color: #f00;
+}
+nav ul li a:hover{
+    background-color: #f00;
+    border-left: 8px solid #ff0;
+    color:#fff;
+}
+nav ul li a:visited{
+    color: darkgreen;
+}
+
+nav ul li a:active{
+    color:#ccc
+}

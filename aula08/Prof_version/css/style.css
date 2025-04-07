@@ -1,0 +1,65 @@
+*{
+    margin:0 auto;
+}
+#wrapper{
+    width:100%;
+    height: 3000px;
+    background-color: #1e1e47;
+}
+header{
+    width:100%;
+    height: 130px;
+    background: orange;
+    margin-bottom: 30px;
+}
+.content{
+    width: 1200px;
+    border:2px dashed #fff;
+}
+.topo{
+    width: 100%;
+}
+.logo{
+    width: 50%;
+    height: 100px;
+    background-color: azure;
+    margin-left: 0;
+}
+nav{
+    width: 100%;
+    height: 30px;
+    background-color: green;
+}
+main{
+    width: 100%;
+    height: 1500px;
+    background-color: #00ffff;
+}
+.blocos{
+    height: 390px;
+    background-color: #ff0;
+    float: left;
+}
+.blocoMaior{
+    width: 780px;
+}
+.blocoMenor{
+    width: 390px;
+}
+.margemEsq{
+    margin-left:30px;
+}
+.margemDir{
+    margin-right:30px;
+}
+.margemTop{
+    margin-top:30px;
+}
+.margemBottom{
+    margin-bottom:30px;
+}
+.semmargens{
+    margin: 0 0;
+}
+
+
